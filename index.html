@@ -1,0 +1,126 @@
+<html>
+<!--to run: python -m SimpleHTTPServer 8080-->
+<head>
+  <title>Store Locator</title>
+  <style>
+    #map {
+      height: 70%;
+      width: 95%;
+      margin: auto;
+    }
+    
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Styling for Autocomplete search bar */
+    #pac-card {
+      background-color: #fff;
+      border-radius: 2px 0 0 2px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      box-sizing: border-box;
+      font-family: Roboto;
+      margin: 10px 10px 0 0;
+      -moz-box-sizing: border-box;
+      outline: none;
+    }
+    
+    #pac-container {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      margin-right: 12px;
+    }
+    
+    #pac-input {
+      background-color: #fff;
+      font-family: Roboto;
+      font-size: 15px;
+      font-weight: 300;
+      margin-left: 12px;
+      padding: 0 11px 0 13px;
+      text-overflow: ellipsis;
+      width: 400px;
+    }
+    
+    #pac-input:focus {
+      border-color: #4d90fe;
+    }
+    
+    #title {
+      color: #fff;
+      background-color: #acbcc9;
+      font-size: 18px;
+      font-weight: 400;
+      padding: 6px 12px;
+    }
+    
+    .hidden {
+      display: none;
+    }
+
+    /* Styling for an info pane that slides out from the left. 
+     * Hidden by default. */
+    #panel {
+      height: 100%;
+      width: null;
+      background-color: white;
+      position: fixed;
+      z-index: 1;
+      overflow-x: hidden;
+      transition: all .2s ease-out;
+    }
+    
+    .open {
+      width: 250px;
+    }
+    
+    .place {
+      font-family: 'open sans', arial, sans-serif;
+      font-size: 1.2em;
+      font-weight: 500;
+      margin-block-end: 0px;
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+    
+    .distanceText {
+      color: silver;
+      font-family: 'open sans', arial, sans-serif;
+      font-size: 1em;
+      font-weight: 400;
+      margin-block-start: 0.25em;
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+  </style>
+</head>
+
+<body>
+    <br>
+    <div style="text-align:center">
+        <h1>Store Locator Santa Cruz</h1>
+        <select  onchange="initMap()"  style="max-width: 315px; background-color: white" id="category">
+                <option value="all">Select an specific category of store:  </option>
+                <option value="coffee shop">Coffee Shops &#9749; </option>
+                <option value="grocery">Grocery &#127805; </option>
+                <option value="restaurant">Restaurant &#129368; </option>
+            </select>
+     
+    </div>
+  <!-- The div to hold the map -->
+  <div id="map"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css">
+  <script src="app.js"></script>
+  <script src="app.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2g5VmWZsoAOdENI1BnLDccheeeDCrYy8&libraries=places&callback=initMap">
+  </script>
+ 
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCc--al8eXXc6CLCVwmCQaF48vPeJiCwQo&libraries=places&callback=initMap">
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,165 @@
+{
+    "type": "FeatureCollection",
+    "features": [{
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.02672063132056, 36.97647959940595
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "coffee shop",
+                "hours": "8am - 6pm",
+                "description": "Thoughtfully sourced coffee drinks in a relaxed roastery with wooden decor & a large, airy space.",
+                "name": "Verve Coffee Roasters",
+                "phone": "18314717726",
+                "storeid": "01"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.02470833132062, 36.9747582620446
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "grocery",
+                "hours": "8am - 9pm",
+                "description": "Grocery chain with a variety of signature items, plus produce, dairy & more (most sell wine & beer).",
+                "name": "Trader Joe's",
+                "phone": "+18314250140",
+                "storeid": "02"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                     -122.04253406201006, 36.96579092115203
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "pharmacy",
+                "hours": "8am - 12am",
+                "description": "Drugstore chain selling a variety of beauty & health products, plus some grocery & household items.",
+                "name": "CVS Pharmacy",
+                "phone": "+18314572481",
+                "storeid": "03"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [ -122.02661219270288, 36.971556668475
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "restaurant",
+                "hours": "8am-2pm",
+                "description": "We've been making traditional boiled, hearth-baked bagels, from scratch, since 1977.",
+                "name": "Bagelry",
+                "phone": "+18314298049",
+                "storeid": "04"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.04536273132096, 36.96166209891589
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "grocery",
+                "hours": "6am - 10pm",
+                "description": "Longtime supermarket chain carrying brand-name & house-label groceries, plus a deli, bakery & more.",
+                "name": "Safeway",
+                "phone": "+18314200781",
+                "storeid": "05"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [ -122.02600478292172, 36.97401385954694
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "coffee shop",
+                "hours": "7am - 7pm",
+                "description": "Acclaimed coffee shop earns buzz with small-batch & artisanal blends in a cozy, comfortable space.",
+                "name": "Santa Cruz Coffee Roasting",
+                "phone": "+18314590100",
+                "storeid": "06"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [ -122.02590267550121, 36.97813347805934
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "restaurant",
+                "hours": "9am - 11pm",
+                "description": "Laid-back counter-serve spot featuring a menu of tacos, burritos & other Mexican staples.",
+                "name": "Taqueria Los Pericos",
+                "phone": "+18314697685",
+                "storeid": "07"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.02935287364805, 36.98275937637603
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "restaurant",
+                "hours": "10:45am - 10pm",
+                "description": "Fast-food chain offering Mexican fare, including design-your-own burritos, tacos & bowls.",
+                "name": "Chipotle Mexican Grill",
+                "phone": "+18312956582",
+                "storeid": "08"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.02599251362695, 36.97305813882668
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "restaurant",
+                "hours": "10am-8pm",
+                "description": "Baked with love in Santa Cruz",
+                "name": "Pacific Cookie Company",
+                "phone": "+18314296905",
+                "storeid": "09"
+            }
+        },
+        {
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.06163619617918, 36.999972531512014
+                ]
+            },
+            "type": "Feature",
+            "properties": {
+                "category": "coffee shop",
+                "hours": "8am - 8pm",
+                "description": "Located at the heart of Science Hill, this is a very convenient option for bustling professors, staff, and students to get their daily dose of caffeine.",
+                "name": "Perk Coffee Bar at Physical Sciences",
+                "phone": "+18314592679",
+                "storeid": "10"
+            }
+        }
+    ]
+}
